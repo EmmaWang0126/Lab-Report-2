@@ -1,19 +1,19 @@
 Part1                     
 The code for StringServer:
 ![Image](code1.png)                           
-                               
+                                                                                             
 Two screenshots of using ```/add-message``` :                                 
-![Image](screenshot-2.png)                                        
+![Image](screenshot-2.png)                                                                                                     
 
 Method: handleRequest.                        
 The relevant arguments are parameters and path.                       
-```parameter[1]``` changed since it is related to the return output.
-
+```parameter[1]``` changed since it is related to the return output.                                                                                         
+                                                           
+                                                                                                                                                         
 ![Image](screenshot-1.png)                  
 Method: handleRequest.                      
 The relevant arguments are parameters and path.                              
-```parameter[1]``` changed since it is related to the return output.
-
+```parameter[1]``` changed since it is related to the return output. Also, the String has changed from ```Hello``` to ```How are you```, and the URL change from ```http://localhost:4000/add-message?s=Hello``` to ```http://localhost:4000/add-message?s=Hello/add-message?s=How%20are%20you```. 
                                                    
 Part2                      
 The bug, as the before-and-after code change required to fix it: 
